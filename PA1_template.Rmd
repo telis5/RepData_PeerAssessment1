@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Irina Telina"
-date: "13 θώνÿ 2015 γ."
+date: "13.06.2015"
 output: 
     html_document:
         keep_md: true

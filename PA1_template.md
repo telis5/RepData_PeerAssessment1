@@ -1,6 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 Irina Telina  
-13 июня 2015 г.  
+13.06.2015  
 
 ### Loading the data:
 
