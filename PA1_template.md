@@ -2,6 +2,9 @@
 Irina Telina  
 16.07.2015  
 
+```
+## Loading required package: knitr
+```
 ### Loading the data:
 
 
@@ -19,7 +22,7 @@ TotalStepsDay <- summarize(dfDay, total_steps = sum(steps, na.rm = TRUE))
 hist(TotalStepsDay$total_steps, main = "The total number of steps taken each day", xlab = "Steps")  
 ```
 
-![](PA1_template_files/figure-html/part1-1.png) 
+![](figure-html/part1-1.png) 
 
 ```r
 mean_steps <- round(mean(TotalStepsDay$total_steps), digits = 2)    
@@ -38,7 +41,7 @@ AvgStepsInterval <- summarise(dfInterval, avg_steps = mean(steps, na.rm = TRUE))
 plot(AvgStepsInterval$interval, AvgStepsInterval$avg_steps, type = "l", main = "The average number of steps", xlab = "5-minute interval", ylab = "Averaged number of steps across all days")
 ```
 
-![](PA1_template_files/figure-html/part2-1.png) 
+![](figure-html/part2-1.png) 
 
 ```r
 max_steps <- max(AvgStepsInterval$avg_steps)  
@@ -72,7 +75,7 @@ TotalStepsDay1 <- summarize(dfDay1, total_steps = sum(steps))
 hist(TotalStepsDay1$total_steps, main = "The total number of steps taken each day", xlab = "Steps")  
 ```
 
-![](PA1_template_files/figure-html/part4-1.png) 
+![](figure-html/part4-1.png) 
 
 ```r
 mean_steps1 <- mean(TotalStepsDay1$total_steps) 
@@ -101,4 +104,4 @@ g + geom_line() +
     labs(title = "The average number of steps", x = "5-minute interval", y = "Averaged number of steps across weekdays or weekends")
 ```
 
-![](PA1_template_files/figure-html/part5-1.png) 
+![](figure-html/part5-1.png) 
