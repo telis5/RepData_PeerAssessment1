@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Irina Telina"
-date: "13.06.2015"
+date: "16.07.2015"
 output: 
     html_document:
         keep_md: true
@@ -11,7 +11,7 @@ Sys.setlocale("LC_TIME","English")
 ``` 
 ### Loading the data:
 
-```{r echo=TRUE}  
+```{r loading, echo=TRUE}  
 df <- read.csv("./activity.csv", header = TRUE, stringsAsFactors = FALSE)  
 ```
 
